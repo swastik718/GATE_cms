@@ -5,7 +5,7 @@ import { getStorage } from 'firebase/storage';
 
 export const firebaseConfig = {
   // Add your Firebase config here
- apiKey: "AIzaSyAd4MZwXLDiCM91bBRhFYJj-p7pW0Y1Gts",
+ apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "college-management-sys-ebf9e.firebaseapp.com",
   projectId: "college-management-sys-ebf9e",
   storageBucket: "college-management-sys-ebf9e.firebasestorage.app",
